@@ -1,13 +1,20 @@
 {
-    "name": "fake-reward-badge",
-    "description": "TBD",
+    "pluginName": "Fake reward badge",
+    "folderName": "fake-reward-badge",
+    "author": {
+        "name": "Elaina Da Catto",
+        "github": "Elaina69"
+    },
+    "description": "",
+    "config": {
+        "pluginsPath": "../../@Elaina-Plugins"
+    },
+
     "private": true,
     "version": "1.0.0",
-    "license": "WTFPL",
+    "license": "MIT",
     "type": "module",
-    "config": {
-        "penguPath": "I:\\Riot Games\\pengu-loader"
-    },
+
     "scripts": {
         "build": "tsc && vite build"
     },
